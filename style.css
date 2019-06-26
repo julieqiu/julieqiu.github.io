@@ -1,0 +1,91 @@
+/*
+.bkgdimg {
+	background: url(img/theviewfromjq.jpg) no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+@media (min-width: 500px) {
+	.bkgdimg {
+		background: url(img/theviewfromjq.jpg) no-repeat;
+		height: 128px;
+	}
+}
+@media (min-width: 1000px) {
+	.bkgdimg {
+		background: url(img/theviewfromjq.jpg) no-repeat;
+		height: 200px;
+	}
+}
+*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+.BackgroundImage {
+  /* The image used */
+  background-image: url("img/theviewfromjq.jpg");
+
+
+  /* Full height */
+  height: 100%;
+  max-width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(255,255,255,.7);
+}
+
+.Nav-title {
+  text-transform: uppercase;
+  color: rgba(255,255,255,.7);
+  font-weight: 700;
+}
+
+.Nav-social {
+  display: flex;
+  width: 250px;
+  justify-content: space-around;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.7);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.BackgroundImage-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.BackgroundImage-contentTitle {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.BackgroundImage-contentSubtitle {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 10px;
+}
