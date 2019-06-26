@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://julieqiu.dev/writing/cryptopals-set1-challenge2/</loc>
+    <lastmod>2022-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/cryptopals-set1-challenge1/</loc>
+    <lastmod>2022-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/pkgsite-search-redesign/</loc>
+    <lastmod>2021-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/godoc.org-redirect/</loc>
+    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/pkgsite-redesign/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/pkgsite/</loc>
+    <lastmod>2020-06-15T21:39:32-05:00</lastmod>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/pkgsite-2020/</loc>
+    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/go.dev/</loc>
+    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/categories/</loc>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/</loc>
+  </url><url>
+    <loc>https://julieqiu.dev/writing/tags/</loc>
+  </url>
+</urlset>

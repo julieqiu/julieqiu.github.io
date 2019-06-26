@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Julie Qiu</title>
+    <link>https://julieqiu.dev/writing/</link>
+    <description>Recent content on Julie Qiu</description>
+    <image>
+      <url>https://julieqiu.dev/writing/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://julieqiu.dev/writing/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://julieqiu.dev/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptopals - Set 1 Challenge 2: Fixed XOR</title>
+      <link>https://julieqiu.dev/writing/cryptopals-set1-challenge2/</link>
+      <pubDate>Sat, 19 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://julieqiu.dev/writing/cryptopals-set1-challenge2/</guid>
+      <description>An explanation of how to produce the fixed XOR combination of two strings in Go.</description>
+    </item>
+    
+    <item>
+      <title>Cryptopals - Set 1 Challenge 1: Convert hex to base64</title>
+      <link>https://julieqiu.dev/writing/cryptopals-set1-challenge1/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://julieqiu.dev/writing/cryptopals-set1-challenge1/</guid>
+      <description>An explanation of how to convert hex to base64, with a programmatic solution in Go.</description>
+    </item>
+    
+    <item>
+      <title>Pkgsite Search Redesign</title>
+      <link>https://julieqiu.dev/writing/pkgsite-search-redesign/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://julieqiu.dev/writing/pkgsite-search-redesign/</guid>
+      <description>The search experience on pkg.go.dev has been updated! Package search results are now grouped by module, and you can now search for symbols.</description>
+    </item>
+    
+    <item>
+      <title>Redirecting godoc.org requests to pkg.go.dev</title>
+      <link>https://julieqiu.dev/writing/godoc.org-redirect/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://julieqiu.dev/writing/godoc.org-redirect/</guid>
+      <description>Requests to godoc.org will redirect to pkg.go.dev in early 2021. This blog post discusses the plans for that migration.</description>
+    </item>
+    
+    <item>
+      <title>Pkg.go.dev has a new look!</title>
+      <link>https://julieqiu.dev/writing/pkgsite-redesign/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://julieqiu.dev/writing/pkgsite-redesign/</guid>
+      <description>The package pages on pkg.go.dev have been redesigned to make the relationship between packages, modules and directories more intuitive and easier to explore.</description>
+    </item>
+    
+    <item>
+      <title>Pkg.go.dev is open source!</title>
+      <link>https://julieqiu.dev/writing/pkgsite/</link>
+      <pubDate>Mon, 15 Jun 2020 21:39:32 -0500</pubDate>
+      
+      <guid>https://julieqiu.dev/writing/pkgsite/</guid>
+      <description>The codebase for pkg.go.dev is now open source! Check it out at golang.org/x/pkgsite, and learn how to contribute to the project.</description>
+    </item>
+    
+    <item>
+      <title>Next steps for pkg.go.dev</title>
+      <link>https://julieqiu.dev/writing/pkgsite-2020/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://julieqiu.dev/writing/pkgsite-2020/</guid>
+      <description>Now that pkg.go.dev has launched, what&amp;rsquo;s next? We have received a lot of helpful user feedback, and here&amp;rsquo;s our plans to improve pkg.go.dev in 2020.</description>
+    </item>
+    
+    <item>
+      <title>Go.dev: a new hub for Go developers</title>
+      <link>https://julieqiu.dev/writing/go.dev/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julieqiu.dev/writing/go.dev/</guid>
+      <description>Introducing go.dev and pkg.go.dev, a new hub for Go developers.</description>
+    </item>
+    
+  </channel>
+</rss>
