@@ -1,24 +1,3 @@
-/*
-.bkgdimg {
-	background: url(img/theviewfromjq.jpg) no-repeat;
-	height: 100%;
-	width: 100%;
-}
-
-@media (min-width: 500px) {
-	.bkgdimg {
-		background: url(img/theviewfromjq.jpg) no-repeat;
-		height: 128px;
-	}
-}
-@media (min-width: 1000px) {
-	.bkgdimg {
-		background: url(img/theviewfromjq.jpg) no-repeat;
-		height: 200px;
-	}
-}
-*/
-
 * {
   box-sizing: border-box;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -29,28 +8,30 @@ body, html {
   height: 100%;
 }
 
-.BackgroundImage {
-  /* The image used */
-  background-image: url("img/theviewfromjq.jpg");
-
-
-  /* Full height */
-  height: 100%;
-  max-width: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 nav {
   padding: 15px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
+  position: absolute;
   justify-content: space-between;
   border-bottom: 0.5px solid rgba(255,255,255,.7);
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin: 0;
+}
+
+a {
+  color: #ce8464;
+  padding-bottom: .05em;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(206,132,100,.3);
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .Nav-title {
@@ -69,14 +50,38 @@ nav {
   font-weight: 600;
 }
 
-.BackgroundImage-content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 200px;
+.Nav-social > div > a {
+  color: rgba(255,255,255,.7);
 }
 
-.BackgroundImage-contentTitle {
+section {
+  /* Full height */
+  height: 100%;
+  max-width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Mountains-backgroundImage {
+  /* The image used */
+  background-image: url("img/background-mountains.jpg");
+}
+
+.Mountains-container {
+  align-items: center;
+  line-height: 5em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  font-size: 18px;
+}
+
+.Mountains-title {
   color: #fff;
   font-size: 65px;
   font-weight: 600;
@@ -84,8 +89,219 @@ nav {
   text-transform: uppercase;
 }
 
-.BackgroundImage-contentSubtitle {
+.Mountains-subtitle {
   color: #fff;
   font-size: 18px;
   letter-spacing: 10px;
+}
+
+.Intro-container {
+    display: flex;
+    margin-top: 200px;
+    font-size: 18px;
+}
+
+.Intro-headshot {
+  padding: 30px;
+  width: 100%;
+}
+
+.Intro-content {
+  padding: 30px;
+  line-height: 2em;
+}
+
+.Intro-content > div:first-child {
+    font-size: 32px;
+}
+
+.Intro-content > div {
+  margin-bottom: 40px;
+}
+
+.Speaking-backgroundImage {
+  /* The image used */
+  background-image: url("img/background-speaking.jpg");
+}
+
+.Speaking-container {
+}
+
+.Speaking-content {
+  font-size: 18px;
+  padding: 200px;
+}
+
+.Speaking-title {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.Speaking-subtitle {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+section.Talks-section {
+  height: auto;
+}
+
+.Talks-container {
+  display: flex;
+  font-size: 18px;
+  margin: auto;
+  margin: 200px;
+  max-width: 1000px;
+}
+
+.Talks-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+}
+
+.Talks-contentItem {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  margin: 5px 0;
+  height: 50px;
+}
+
+.Talks-contentItem > :nth-of-type(1) {
+  width: 18%;
+  padding: 0 10px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.Talks-contentItem > div:nth-of-type(2) {
+  width: 60%;
+}
+
+.Talks-contentItem > :nth-of-type(2) > div {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.Talks-contentItem > :nth-of-type(3) {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  width: 10%;
+}
+
+li {
+  list-style: none;
+}
+
+section.Contact-section {
+  height: auto;
+  display: flex;
+  justify-content: center;
+   margin-bottom: 50px;
+}
+
+.Contact-container {
+  max-width: 1400px;
+  width: 50%;
+  margin-bottom: 200px;
+  font-size: 18px;
+  color: #293047;
+}
+
+.Contact-title {
+  font-weight: 500;
+  margin: 30px 0;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
+}
+
+input.Contact-formInput,
+textarea.Contact-formInput {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0 4px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  color: #000;
+  font-size: 12px;
+  line-height: normal;
+  border-radius: 2px;
+}
+
+input.Contact-formInput:focus,
+input.Contact-formInput:active,
+textarea.Contact-formInput:focus,
+textarea.Contact-formInput:active {
+  background: #fff;
+  outline: 0;
+}
+
+textarea {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 130px;
+  overflow: auto;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.Contact-contentItem {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.Contact-nameContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.Contact-nameContentItem {
+  width: 48%;
+}
+
+.Contact-formSubmit {
+  color: #fff;
+  background-color: #1a1f2d;
+  border-color: #1a1f2d;
+  border-radius: 0;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  padding: 1em 2.5em;
+  text-align: center;
+  font-size: 14px;
+}
+
+.Talks-contentItemHide {
+  color: white;
+}
+
+.Talks-talkTitle {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #f2f5f6;
+  padding: 50px 40px;
 }
