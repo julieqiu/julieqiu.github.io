@@ -273,31 +273,27 @@
           </div>
 
           <div>
-            <form class="Contact-form">
+            <form class="Contact-form" action="https://formspree.io/contactjulieqiu@gmail.com" method="POST"/>
               <fieldset>
                 <legend>Name *</legend>
                 <div class="Contact-nameContent">
                   <div class="Contact-contentItem Contact-nameContentItem">
-                    <input class="Contact-formInput">
+                    <input required name="FirstName" class="Contact-formInput">
                     <label>First Name</label>
                   </div>
                   <div class="Contact-contentItem Contact-nameContentItem">
-                    <input class="Contact-formInput">
+                    <input required name="LastName" class="Contact-formInput">
                     <label>Last Name</label>
                   </div>
                 </div>
               </fieldset>
               <div class="Contact-contentItem">
                 <label>Email *</label>
-                <input class="Contact-formInput">
-              </div>
-              <div class="Contact-contentItem">
-                <label>Subject *</label>
-                <input class="Contact-formInput">
+                <input required name="Email" type="email" class="Contact-formInput">
               </div>
               <div class="Contact-contentItem">
                 <label>Message *</label>
-                <textarea class="Contact-formInput"></textarea>
+                <textarea required name="Message" class="Contact-formInput"></textarea>
               </div>
               <input class="Contact-formSubmit" type="submit" value="Submit">
             </form>
