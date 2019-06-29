@@ -17,6 +17,13 @@ nav {
   justify-content: space-between;
   border-bottom: 0.5px solid rgba(255,255,255,.7);
   width: 100%;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 500px) {
+  nav {
+    flex-direction: row;
+  }
 }
 
 h1 {
@@ -56,7 +63,7 @@ a {
 
 section {
   /* Full height */
-  height: 100%;
+  height: auto;
   max-width: 100%;
 
   /* Center and scale the image nicely */
@@ -68,6 +75,12 @@ section {
 .Mountains-backgroundImage {
   /* The image used */
   background-image: url("img/background-mountains.jpg");
+  height: 100%;
+}
+
+@media only screen and (min-width: 500px) {
+  .Mountains-backgroundImage {
+  }
 }
 
 .Mountains-container {
@@ -87,6 +100,7 @@ section {
   font-weight: 600;
   letter-spacing: 10px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .Mountains-subtitle {
@@ -97,8 +111,15 @@ section {
 
 .Intro-container {
     display: flex;
-    margin-top: 200px;
+    flex-direction: column;
+    margin: 200px 0;
     font-size: 18px;
+}
+
+@media only screen and (min-width: 704px) {
+  .Intro-container {
+    flex-direction: row;
+  }
 }
 
 .Intro-headshot {
@@ -122,6 +143,8 @@ section {
 .Speaking-backgroundImage {
   /* The image used */
   background-image: url("img/background-speaking.jpg");
+  height: 120%;
+  background-position: right;
 }
 
 .Speaking-container {
@@ -148,15 +171,11 @@ section {
   text-transform: uppercase;
 }
 
-section.Talks-section {
-  height: auto;
-}
-
 .Talks-container {
   display: flex;
+  flex-direction: column;
   font-size: 18px;
-  margin: auto;
-  margin: 200px;
+  margin: 200px auto;
   max-width: 1000px;
 }
 
@@ -173,7 +192,7 @@ section.Talks-section {
   justify-content: space-between;
   flex-flow: row wrap;
   margin: 5px 0;
-  height: 50px;
+  min-height: 50px;
 }
 
 .Talks-contentItem > :nth-of-type(1) {
@@ -200,12 +219,27 @@ section.Talks-section {
   width: 10%;
 }
 
+.Talks-container > h1 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 950px) {
+  .Talks-container {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 560px) {
+  .Talks-contentItem > :nth-of-type(1) {
+    word-spacing: auto;
+  }
+}
+
 li {
   list-style: none;
 }
 
 section.Contact-section {
-  height: auto;
   display: flex;
   justify-content: center;
    margin-bottom: 50px;
@@ -213,11 +247,18 @@ section.Contact-section {
 
 .Contact-container {
   max-width: 1400px;
-  width: 50%;
   margin-bottom: 200px;
   font-size: 18px;
   color: #293047;
 }
+
+@media only screen and (min-width: 600px) {
+  .Contact-container {
+    min-width: 600px;
+    width: 50%;
+  }
+}
+
 
 .Contact-title {
   font-weight: 500;
