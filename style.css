@@ -1,3 +1,18 @@
+:root {
+  --gray-1: #293047;
+  --gray-2: #ccc;
+  --gray-3: #fafafa;
+  --gray-4: #f2f5f6;
+
+  --dark-gray: #1a1f2d;
+
+  --gold-1: #ce8464;
+  --gold-2: rgba(206,132,100,.3);
+
+  --white-1: #fff;
+  --white-2: rgba(255,255,255,.7);
+}
+
 * {
   box-sizing: border-box;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -15,7 +30,7 @@ nav {
   display: flex;
   position: absolute;
   justify-content: space-between;
-  border-bottom: 0.5px solid rgba(255,255,255,.7);
+  border-bottom: 0.5px solid var(--white-2);
   width: 100%;
   flex-direction: column;
 }
@@ -33,17 +48,17 @@ h1 {
 }
 
 a {
-  color: #ce8464;
+  color: var(--gold-1);
   padding-bottom: .05em;
   border-bottom-width: 1px;
-  border-bottom-color: rgba(206,132,100,.3);
+  border-bottom-color: var(--gold-2);
   font-weight: 600;
   text-decoration: none;
 }
 
 .Nav-title {
   text-transform: uppercase;
-  color: rgba(255,255,255,.7);
+  color: var(--white-2);
   font-weight: 700;
 }
 
@@ -52,13 +67,13 @@ a {
   width: 250px;
   justify-content: space-around;
   text-transform: uppercase;
-  color: rgba(255,255,255,.7);
+  color: var(--white-2);
   font-size: 14px;
   font-weight: 600;
 }
 
 .Nav-social > div > a {
-  color: rgba(255,255,255,.7);
+  color: var(--white-2);
 }
 
 section {
@@ -95,7 +110,7 @@ section {
 }
 
 .Mountains-title {
-  color: #fff;
+  color: var(--white-1);
   font-size: 65px;
   font-weight: 600;
   letter-spacing: 10px;
@@ -104,7 +119,7 @@ section {
 }
 
 .Mountains-subtitle {
-  color: #fff;
+  color: var(--white-1);
   font-size: 18px;
   letter-spacing: 10px;
 }
@@ -156,7 +171,7 @@ section {
 }
 
 .Speaking-title {
-  color: #fff;
+  color: var(--white-1);
   font-size: 65px;
   font-weight: 600;
   letter-spacing: 10px;
@@ -164,7 +179,7 @@ section {
 }
 
 .Speaking-subtitle {
-  color: #fff;
+  color: var(--white-1);
   font-size: 65px;
   font-weight: 600;
   letter-spacing: 10px;
@@ -249,7 +264,7 @@ section.Contact-section {
   max-width: 1400px;
   margin-bottom: 200px;
   font-size: 18px;
-  color: #293047;
+  color: var(--gray-1);
 }
 
 @media only screen and (min-width: 600px) {
@@ -275,9 +290,8 @@ textarea.Contact-formInput {
   width: 100%;
   padding: 12px;
   margin: 6px 0 4px;
-  border: 1px solid #ccc;
-  background: #fafafa;
-  color: #000;
+  border: 1px solid var(--gray-2);
+  background: var(--gray-3);
   font-size: 12px;
   line-height: normal;
   border-radius: 2px;
@@ -287,7 +301,7 @@ input.Contact-formInput:focus,
 input.Contact-formInput:active,
 textarea.Contact-formInput:focus,
 textarea.Contact-formInput:active {
-  background: #fff;
+  background: var(--white-1);
   outline: 0;
 }
 
@@ -320,9 +334,9 @@ textarea {
 }
 
 .Contact-formSubmit {
-  color: #fff;
-  background-color: #1a1f2d;
-  border-color: #1a1f2d;
+  color: var(--white-1);
+  background-color: var(--dark-gray);
+  border-color: var(--dark-gray);
   border-radius: 0;
   font-weight: 400;
   font-style: normal;
@@ -334,7 +348,7 @@ textarea {
 }
 
 .Talks-contentItemHide {
-  color: white;
+  color: var(--white-1);
 }
 
 .Talks-talkTitle {
@@ -343,6 +357,6 @@ textarea {
 }
 
 footer {
-  background-color: #f2f5f6;
+  background-color: var(--gray-4);
   padding: 50px 40px;
 }
