@@ -1,16 +1,17 @@
 :root {
-  --gray-1: #293047;
-  --gray-2: #ccc;
-  --gray-3: #fafafa;
-  --gray-4: #f2f5f6;
-
-  --dark-gray: #1a1f2d;
+  --gray-1: #1a1f2d;
+  --gray-2: #5C6F74;
+  --gray-3: #ccc;
+  --gray-4: #fafafa;
+  --gray-5: #f2f5f6;
 
   --gold-1: #ce8464;
   --gold-2: rgba(206,132,100,.3);
 
   --white-1: #fff;
   --white-2: rgba(255,255,255,.7);
+
+  --green: #49BBA5;
 }
 
 * {
@@ -21,6 +22,7 @@
 body, html {
   margin: 0;
   height: 100%;
+  color: var(--gray-1);
 }
 
 nav {
@@ -223,6 +225,7 @@ section {
 
 .Talks-contentItem > div:nth-of-type(2) {
   width: 60%;
+  padding: 0 20px;
 }
 
 .Talks-contentItem > :nth-of-type(2) > div {
@@ -239,6 +242,8 @@ section {
   text-align: right;
   flex-basis: 0;
   flex-grow: 1;
+  flex-direction: column;
+  display: flex;
 }
 
 .Talks-container > h1 {
@@ -249,6 +254,18 @@ section {
   .Talks-container {
     flex-direction: row;
   }
+}
+
+.Talks-slidesLink {
+  color: var(--gray-2);
+}
+
+.Talks-ticketsLink {
+  color: var(--green);
+}
+
+.Talks-videoLink {
+  color: var(--gold-1);
 }
 
 li {
@@ -265,7 +282,6 @@ section.Contact-section {
   max-width: 1400px;
   margin-bottom: 200px;
   font-size: 18px;
-  color: var(--gray-1);
 }
 
 @media only screen and (min-width: 600px) {
@@ -291,8 +307,8 @@ textarea.Contact-formInput {
   width: 100%;
   padding: 12px;
   margin: 6px 0 4px;
-  border: 1px solid var(--gray-2);
-  background: var(--gray-3);
+  border: 1px solid var(--gray-3);
+  background: var(--gray-4);
   font-size: 12px;
   line-height: normal;
   border-radius: 2px;
@@ -336,8 +352,8 @@ textarea {
 
 .Contact-formSubmit {
   color: var(--white-1);
-  background-color: var(--dark-gray);
-  border-color: var(--dark-gray);
+  background-color: var(--gray-1);
+  border-color: var(--gray-1);
   border-radius: 0;
   font-weight: 400;
   font-style: normal;
@@ -358,6 +374,6 @@ textarea {
 }
 
 footer {
-  background-color: var(--gray-4);
+  background-color: var(--gray-5);
   padding: 50px 40px;
 }
