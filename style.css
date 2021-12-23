@@ -70,7 +70,7 @@ a {
 
 .Nav-right {
   margin-right: 1rem;
-  width: 15rem;
+  width: 20rem;
   justify-content: space-between;
 }
 
@@ -153,9 +153,17 @@ section {
 
 .Intro-container {
   display: flex;
-  flex-direction: column;
-  margin: 200px 0;
-  font-size: 18px;
+  margin-top: 75px;
+  max-width: 1400px;
+}
+
+.Intro-container > picture {
+  max-width: 32rem;
+}
+
+.Intro-headshot {
+  padding: 30px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 704px) {
@@ -164,14 +172,10 @@ section {
   }
 }
 
-.Intro-headshot {
-  padding: 30px;
-  width: 100%;
-}
-
 .Intro-content {
   padding: 30px;
   line-height: 2em;
+  font-size: 18px;
 }
 
 .Intro-content > div:first-child {
@@ -302,6 +306,7 @@ li {
 }
 
 section.Writing-section,
+section.Intro-section,
 section.Contact-section {
   display: flex;
   justify-content: center;
