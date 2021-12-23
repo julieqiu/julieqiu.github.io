@@ -37,6 +37,10 @@ nav {
   flex-direction: column;
 }
 
+.Nav-backgroundColor {
+  background-color: var(--gray-1);
+}
+
 @media only screen and (min-width: 500px) {
   nav {
     flex-direction: row;
@@ -65,7 +69,8 @@ a {
 }
 
 .Nav-right {
-  width: 10rem;
+  margin-right: 1rem;
+  width: 15rem;
   justify-content: space-between;
 }
 
@@ -299,8 +304,9 @@ section.Contact-section {
 }
 
 .Contact-container {
+  margin-top: 100px;
   max-width: 1400px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   font-size: 18px;
 }
 
