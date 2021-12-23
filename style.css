@@ -58,6 +58,17 @@ a {
   text-decoration: none;
 }
 
+.Nav-left,
+.Nav-right {
+  display: flex;
+  font-size: 1.125rem;
+}
+
+.Nav-right {
+  width: 10rem;
+  justify-content: space-between;
+}
+
 .Nav-title {
   text-transform: uppercase;
   color: var(--white-2);
@@ -65,17 +76,26 @@ a {
 }
 
 .Nav-social {
-  display: flex;
-  width: 250px;
-  justify-content: space-around;
-  text-transform: uppercase;
   color: var(--white-2);
-  font-size: 14px;
+  display: flex;
+  font-size: 1rem;
   font-weight: 600;
+  justify-content: flex-start;
+  margin-left: 1rem;
+  text-transform: uppercase;
 }
 
-.Nav-social > div > a {
+.Nav-social > div {
+  padding: 0 0.25rem;
+}
+
+.Nav-social > div > a,
+.Nav-right > div > a {
   color: var(--white-2);
+}
+
+.Nav-social-item {
+  display: none !important;
 }
 
 section {
