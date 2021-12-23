@@ -160,6 +160,12 @@ section {
   letter-spacing: 10px;
 }
 
+.Experience-section {
+  display: flex;
+  margin-top: 75px;
+  max-width: 1400px;
+}
+
 .Intro-container {
   display: flex;
   margin-top: 75px;
@@ -316,6 +322,8 @@ li {
   list-style: none;
 }
 
+section.Education-section,
+section.Experience-section,
 section.Writing-section,
 section.Intro-section,
 section.Contact-section {
