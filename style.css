@@ -160,10 +160,22 @@ section {
   letter-spacing: 10px;
 }
 
-.Experience-section {
+.Resume-section {
+  display: flex;
+  flex-direction: column;
+}
+.Education-container,
+.Experience-container {
   display: flex;
   margin-top: 75px;
-  max-width: 1400px;
+  justify-content: left;
+  margin: 0 5rem 2rem 5rem;
+  flex-direction: column;
+}
+.Education-container > ul,
+.Experience-container > ul {
+  margin: 0;
+  padding: 0;
 }
 
 .Intro-container {
@@ -322,8 +334,6 @@ li {
   list-style: none;
 }
 
-section.Education-section,
-section.Experience-section,
 section.Writing-section,
 section.Intro-section,
 section.Contact-section {
