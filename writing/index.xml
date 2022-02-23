@@ -10,6 +10,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator><atom:link href="https://julieqiu.dev/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cryptopals - Set 1 Challenge 3: Single-byte XOR Cipher</title>
+      <link>https://julieqiu.dev/writing/cryptopals-set1-challenge3/</link>
+      <pubDate>Wed, 23 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://julieqiu.dev/writing/cryptopals-set1-challenge3/</guid>
+      <description>An explanation of how to decrypt a single-byte XOR cipher in Go.</description>
+    </item>
+    
+    <item>
       <title>Cryptopals - Set 1 Challenge 2: Fixed XOR</title>
       <link>https://julieqiu.dev/writing/cryptopals-set1-challenge2/</link>
       <pubDate>Sat, 19 Feb 2022 00:00:00 +0000</pubDate>
