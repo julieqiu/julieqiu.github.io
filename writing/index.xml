@@ -33,7 +33,7 @@
       <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://julieqiu.dev/writing/cryptopals-set1-challenge3/</guid>
-      <description>An explanation of how to decrypt a single-byte XOR cipher in Go.</description>
+      <description>An explanation of how to decrypt single-byte XOR in Go.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@
       <pubDate>Sat, 19 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://julieqiu.dev/writing/cryptopals-set1-challenge2/</guid>
-      <description>An explanation of how to produce the fixed XOR combination of two strings in Go.</description>
+      <description>An explanation of how to implement fixed XOR in Go.</description>
     </item>
     
     <item>
