@@ -184,7 +184,7 @@ func main() {
 func repeatingXOR(input, key string) []byte {
 	out := make([]byte, len(input))
 	for i := 0; i &lt; len(input); i++ {
-		j := i % len(key) // sequentially apply each by the key
+		j := i % len(key) // sequentially apply each byte the key
 		out[i] = byte(key[j]) ^ byte(input[i])
 	}
 	return out
